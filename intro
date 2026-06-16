@@ -1,2 +1,18 @@
 to compile java program - javac FileName.java
 to run the java program after typing the above command ...type "java FileName"
+
+
+
+git add .
+git commit -m "Describe what you added"
+git push
+
+
+
+to check what has changed before uploading:
+git status
+
+
+To see all previous commits:
+git log --oneline
+
