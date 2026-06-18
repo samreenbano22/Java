@@ -1,5 +1,5 @@
 to compile java program - javac FileName.java
-to run the java program after typing the above command ...type "java FileName"
+to run the java program after typing the above command ...type "Java FileName" 
 
 
 
@@ -15,4 +15,3 @@ git status
 
 To see all previous commits:
 git log --oneline
-
