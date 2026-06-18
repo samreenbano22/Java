@@ -39,7 +39,7 @@ public class variables {
     
     int a = 10;
     int b = 20;
-    int sum = a + b;
+    int c = a + b;
     System.out.println("sum");            //the difference it will give is that it will print the word "sum" instead of the value of the variable sum which is 30
     }
 }
