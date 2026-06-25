@@ -71,14 +71,33 @@
 //half pyramid pattern
 
 
+// public class Pattern{
+//     public static void main(String [] args){
+        
+//         for (int i=1; i<=4; i++){
+//             for (int j=1; j<=i; j++){  //here j<=i because we want to print the stars in the same line and the number of stars will be equal to the number of rows
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+//     }
+
+
+//downward half pyramid pattern
+// ****
+// ***
+// **
+// *
+
 public class Pattern{
     public static void main(String [] args){
-        
-        for (int i=1; i<=4; i++){
-            for (int j=1; j<=i; j++){  //here j<=i because we want to print the stars in the same line and the number of stars will be equal to the number of rows
+        for(int i=4; i>=1; i--){
+            for (int j=1; j <=i ; j++){
                 System.out.print("*");
             }
-            System.out.println();
+            System.out.println("");
         }
+
     }
-    }
+}
